@@ -1,0 +1,113 @@
+header{
+    background-image: url("/images/Mask_Group_3.png");
+    background-size: cover;
+    height: 806px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+nav div:nth-child(2){
+    /* width: ; */
+}
+nav div:nth-child(2)> ul li
+{
+    display: inline-block;
+   margin-top: 28px;
+   font-size: 18px;
+}
+nav div:nth-child(2) ul li:not(:last-child){
+    color: yellow;
+    margin-right: 6.5%;}
+/* nav div:nth-child(2)> ul li:last-child{
+        color: red;
+        margin-right: 0 !important; 
+    } */
+nav div:nth-child(2)> ul li:first-child{
+    margin-left: 55%;
+}
+
+
+nav div:first-child{
+    width: fit-content;
+}
+
+.logo{
+    font-size: 20px;
+    padding: 36px 0 0 40px;
+}
+
+.sub_log{
+    font-size: 12px;
+    padding: 5px 0 0 40px;
+}
+
+
+nav div:nth-child(2)>*{
+font-size: 18px;
+}
+header>div{
+    margin: 360px 0 0 138px;
+}
+header>div h1{
+    width: 320px;
+    font-size: 68px;
+   
+}
+header>div p{
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.sectionOne{
+    display: flex;
+}
+
+.sectionOne div:first-child{
+    background-color: #FAF5F5;
+    margin: 161px 0 0 149px;
+    width: 418px;
+    height: 448px;
+    
+}
+ /* -----------------first section---------------*/
+.sectionOne div:first-child h3{
+    margin: 77px 0 0 57px;
+    font-size: 48px;
+}
+
+.sectionOne div:first-child p:nth-child(2){
+    margin: 63px 0 0 57px;
+    font-size: 24px;
+
+}
+.sectionOne div:first-child p:nth-child(3){
+    margin: 26px 0 0 57px;
+    font-size: 16px;
+    width: 296px;
+    line-height: 1.5;
+
+}
+
+.sectionOne div:nth-child(2){
+    margin: 220px 0 0 92px;
+}
+
+
+
+/*--------------end of section two-----------------*/
+
+
+/*---------------------Bignning of section two-------------*/
+.sectionTwo h3{
+    margin: 162px 0 0 138px;
+    font-size: 48px;
+}
+.three_images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.three_images img:first-child{
+    margin-left: 138px;
+}
