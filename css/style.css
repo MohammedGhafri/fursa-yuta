@@ -34,6 +34,41 @@ nav div:nth-child(2)> ul{
     text-align: right;
 }
 
+nav div:nth-child(2) ul li a:hover{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+nav div:nth-child(2) ul li:first-of-type a{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+nav div:nth-child(2) ul li:first-of-type a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 5px solid black;
+
+}
+nav div:nth-child(2) ul li a:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 5px solid black;
+
+}
+
+
 
 nav div:first-child{
     width: fit-content;
@@ -94,6 +129,24 @@ header>div p{
     font-size: 48px;
 }
 
+.sectionOne div:first-child h3 {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.sectionOne div:first-child h3:before{
+    content: "";
+    position: absolute;
+    width: 47%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 3px solid black;
+
+}
+
+
 .sectionOne div:first-child p:nth-child(2){
     margin: 63px 0 0 57px;
     font-size: 24px;
@@ -121,6 +174,24 @@ header>div p{
     margin: 162px 0 58px 138px;
     font-size: 48px;
 }
+
+.sectionTwo h3 {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.sectionTwo h3:before{
+    content: "";
+    position: absolute;
+    width: 56%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 3px solid black;
+
+}
+
 .three_images{
     display: flex;
     /* grid-template-columns: auto auto auto; */
@@ -208,6 +279,25 @@ text-align: justify;
     margin: 55px 0 0 181px;
 }
 
+.sectionThree div:nth-child(2) h2 {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.sectionThree div:nth-child(2) h2:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 26%;
+    border-bottom: 3px solid black;
+
+}
+
+
+
 .sectionThree div:nth-child(2) p{
     font-size: 16px;
     margin: 15px 0px 0 205px;
@@ -246,6 +336,28 @@ text-align: justify;
 }
 
 
+.sectionFour h3{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.sectionFour h3:before{
+    content: "";
+    position: absolute;
+    width: 64%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 3px solid black;
+
+}
+
+
+
+
+
+
 .three_images_sec_four{
     display: flex;
     margin-top: 48px;
@@ -282,6 +394,26 @@ text-align: justify;
     margin-top: 201px;
     margin-left: 138px;
 }
+
+
+.sectionFive h3{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.sectionFive h3:before{
+    content: "";
+    position: absolute;
+    width: 44%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 3px solid black;
+
+}
+
+
 
 .sec5_dev{
     display: grid;
