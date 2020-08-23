@@ -75,11 +75,14 @@ nav div:first-child{
 }
 
 .logo{
+    color: #ffffff;
     font-size: 20px;
     padding: 36px 0 0 40px;
 }
 
 .sub_log{
+    color: #ffffff;
+
     font-size: 12px;
     padding: 5px 0 0 40px;
 }
